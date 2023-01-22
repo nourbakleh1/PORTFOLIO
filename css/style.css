@@ -914,32 +914,41 @@ header .circle {
   top:0;
   left:0;
   height: 100%;
-  width: 100px;
-  background-image:linear-gradient(135deg,var(--main-color),var(--light-two));
-  animation: animat-fill 3s linear  infinite alternate;
+  width: 10px;
+  background-image:linear-gradient(135deg,var(--dark-two),var(--light-two));
+  animation: animat-fill 3s linear  infinite;
   border: 0;
   outline: none;
-  box-shadow: 1px 1px 3px 4px var(--dark-two);
+  /* box-shadow: 1px 1px 3px 4px var(--dark-two); */
 }
 @keyframes animat-fill {
   0%{
-    left:0;
-  background-image:linear-gradient(220deg,var(--main-color),var(--light-three));
+    /* left:0; */
+  background-image:linear-gradient(20deg,var(--main-color),var(--light-two));
+  width: 20%;
+
+
   }
   40%{
-  background-image:linear-gradient(260deg,var(--main-color),var(--light-three));
+  background-image:linear-gradient(50deg,var(--main-color),var(--light-two));
+  width: 40%;
+
   
 
   }
   40%{
-  background-image:linear-gradient(300deg,var(--main-color),var(--light-three));
+  background-image:linear-gradient(70deg,var(--main-color),var(--light-two));
+  width: 60%;
+
 
 
   }
   
   100%{
-    left:calc(100% - 100px);
-  background-image:linear-gradient(245deg,var(--main-color),var(--light-three));
+    /* left:calc(100% - 100px); */
+  background-image:linear-gradient(95deg,var(--main-color),var(--light-two));
+  width: 100%;
+
   
 
 
@@ -2570,7 +2579,7 @@ header .circle {
 }
 @media (max-width:600px) {
   .pro-1{
-    transform: translate(100vw) rotate(30deg) ;
+    transform: translate(100vw)  scale(0.2);
     opacity: 0;
     visibility: hidden;
     transition: 1s;
@@ -2578,62 +2587,62 @@ header .circle {
   
   
   .pro-9{
-    transform: translate(-100vw) rotate(30deg);
+    transform: translate(-100vw) scale(0.2);
     opacity: 0;
     visibility: hidden;
     transition: 1s;
   }
   .pro-7{
-    transform: translate(100vw) rotate(30deg) ;
+    transform: translate(100vw) scale(0.2) ;
     opacity: 0;
     visibility: hidden;
     transition: 1s;
   }
   .pro-3{
-    transform: translate(-100vw) rotate(30deg) ;
+    transform: translate(-100vw) scale(0.2) ;
     opacity: 0;
     visibility: hidden;
     transition: 1s;
   }
   .pro-5{
-    transform: translate(100vw) rotate(30deg) ;
+    transform: translate(100vw)  scale(0.2);
     opacity: 0;
     visibility: hidden;
     transition: 1s;
   }
   .pro-6{
-    transform: translate(-100vw) rotate(30deg);
+    transform: translate(-100vw) scale(0.2) ;
     opacity: 0;
     visibility: hidden;
     transition: 1s;
   }
   .pro-2{
-    transform: translate(100vw) rotate(30deg) ;
+    transform: translate(100vw) scale(0.2) ;
     opacity: 0;
     visibility: hidden;
     transition: 1s;
   }
   .pro-4{
-    transform: translate(-100vw) rotate(30deg);
+    transform: translate(-100vw) scale(0.2);
     opacity: 0;
     visibility: hidden;
     transition: 1s;
   }
   .pro-10{
-    transform: translate(100vw) rotate(30deg) ;
+    transform: translate(100vw) scale(0.2) ;
     opacity: 0;
     visibility: hidden;
     transition: 1s;
   }
   .pro-8{
-    transform: translate(-100vw) rotate(30deg);
+    transform: translate(-100vw) scale(0.2);
     opacity: 0;
     visibility: hidden;
     
     transition: 1s;
   }
   .pro-11{
-    transform: translate(100vw) rotate(30deg) ;
+    transform: translate(100vw) scale(0.2) ;
     opacity: 0;
     visibility: hidden;
     transition: 1s;
@@ -2650,7 +2659,7 @@ header .circle {
   .pro-8.port-right,
   .pro-11.port-left
   {
-    transform: translate(0) rotate(360deg) scale(1) ;
+    transform: translate(0)  scale(1) ;
     opacity: 1;
     visibility: visible;
   

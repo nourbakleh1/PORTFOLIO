@@ -16,7 +16,7 @@ let letter = "";
 
 (function type() {
   if (count === texts.length) {
-    count = 0;
+    count =0;
   }
   currentText = texts[count];
   letter = currentText.slice(0, ++index);
