@@ -1506,6 +1506,8 @@ header .circle {
   .footer::after{
     content:"nourbakleh1@gmail.com";
     position: absolute;
+    user-select:auto;
+
     top:2px;
     left: 50%;
     transform: translate(-50%);
@@ -1517,6 +1519,7 @@ header .circle {
 }
 .footer::before{
     content:"+963 993192890";
+    user-select: auto;
     position: absolute;
     color:var(--main-color);
     top:40px;
@@ -2576,6 +2579,34 @@ header .circle {
 .header-content .btn.me-btn{
   transform: translateX(0);
   
+}
+.anim-light{
+    position :relative;
+}
+.anim-light::after{
+  content: "";
+  position: absolute;
+  top:0;
+  left: 0;
+  width:0%;
+  height: 100%;
+  background-color: var(--light-three);
+  animation: leftToright 3s normal ease infinite;
+  filter: blur(5px);
+  border-radius: 20px;
+  mix-blend-mode:saturation;
+}
+@keyframes leftToright {
+  from{
+  width:0%;
+    
+  }
+  to{
+    width:100%;
+
+
+  }
+
 }
 @media (max-width:600px) {
   .pro-1{
