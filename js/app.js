@@ -8,7 +8,7 @@ const hamburger_menu = document.querySelector(".hamburger-menu");
 const navbar = document.querySelector("header nav");
 const links = document.querySelectorAll(".links a");
 
-const texts = ["Web Devloper"];
+const texts = ["Web Devloper","Programmer"];
 let count = 0;
 let index = 0;
 let currentText = "";
