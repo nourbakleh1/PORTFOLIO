@@ -451,8 +451,11 @@ nav.open .links {
 }
 
 .header-content .image .img-element {
-  max-width: 650px;
+  max-width: 400px;
   animation: top-bottom 2s infinite linear alternate;
+  background-color: var(--light-two);
+  box-shadow: 0 0 5px 6px var(--main-color) ;
+  border-radius: 50%;
   
 }
 .header-content .image .img-element {
@@ -1827,7 +1830,7 @@ header .circle {
   }
 
   .header-content .image .img-element {
-    max-width: 500px;
+    max-width: 300px;
   }
 
   nav .container {
@@ -2157,7 +2160,7 @@ header .circle {
     font-size: 1.5rem;
   }
   .header-content .column-1{
-    margin-top: 20px;
+    margin: 20px 0;
   }
   .social-media a {
     font-size: 1.2rem;
@@ -2591,7 +2594,7 @@ header .circle {
   width:0%;
   height: 100%;
   background-color: var(--light-three);
-  animation: leftToright 3s normal ease infinite;
+  /* animation: leftToright 3s normal ease infinite; */
   filter: blur(5px);
   border-radius: 20px;
   mix-blend-mode:saturation;
