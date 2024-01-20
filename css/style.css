@@ -2662,25 +2662,33 @@ header .circle {
     visibility: hidden;
     transition: 1s;
   }
-  .pro-10{
+  .pro-8{
     transform: translate(100vw) scale(0.2) ;
     opacity: 0;
     visibility: hidden;
     transition: 1s;
   }
-  .pro-8{
-    transform: translate(-100vw) scale(0.2);
+  
+  .pro-11{
+    transform: translate(-100vw) scale(0.2) ;
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+  }
+  .pro-12{
+    transform: translate(100vw) scale(0.2);
     opacity: 0;
     visibility: hidden;
     
     transition: 1s;
   }
-  .pro-11{
-    transform: translate(100vw) scale(0.2) ;
+  .pro-13{
+    transform: translate(-100vw) scale(0.2) ;
     opacity: 0;
     visibility: hidden;
     transition: 1s;
   }
+
   .pro-1.port-left,
   .pro-9.port-right,
   .pro-7.port-left,
@@ -2689,9 +2697,10 @@ header .circle {
   .pro-6.port-right,
   .pro-2.port-left,
   .pro-4.port-right,
-  .pro-10.port-left,
-  .pro-8.port-right,
-  .pro-11.port-left
+  .pro-8.port-left,
+  .pro-11.port-right,
+  .pro-12.port-left,
+  .pro-13.port-right
   {
     transform: translate(0)  scale(1) ;
     opacity: 1;

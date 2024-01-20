@@ -117,10 +117,12 @@ let Project4=document.getElementById("pro-4");
 let Project5=document.getElementById("pro-5");
 let Project6=document.getElementById("pro-6");
 let Project7=document.getElementById("pro-7");
-let Project8=document.getElementById("pro-8");
 let Project9=document.getElementById("pro-9");
+let Project8=document.getElementById("pro-8");
 let Project10=document.getElementById("pro-10");
 let Project11=document.getElementById("pro-11");
+let Project12=document.getElementById("pro-12");
+let Project13=document.getElementById("pro-13");
 let portfolio=document.getElementById("portfolio");
 
 
@@ -155,57 +157,63 @@ window.onscroll=()=>{
     
 
   }
-  if(window.scrollY >= portfolio.offsetTop + 250){
+  if(window.scrollY >= portfolio.offsetTop + 350){
     Project7.classList.add("port-left");
    
 
   }
-  if(window.scrollY >= portfolio.offsetTop + 450){
+  if(window.scrollY >= portfolio.offsetTop + 550){
     Project3.classList.add("port-right");
    
     
 
   }
-  if(window.scrollY >= portfolio.offsetTop + 650){
+  if(window.scrollY >= portfolio.offsetTop + 850){
     Project5.classList.add("port-left");
    
 
   }
-  if(window.scrollY >= portfolio.offsetTop + 850){
+  if(window.scrollY >= portfolio.offsetTop + 1100){
     Project6.classList.add("port-right");
    
     
 
   }
-  if(window.scrollY >= portfolio.offsetTop + 1050){
+  if(window.scrollY >= portfolio.offsetTop + 1300){
     Project2.classList.add("port-left");
    
 
   }
-  if(window.scrollY >= portfolio.offsetTop + 1250){
+  if(window.scrollY >= portfolio.offsetTop + 1500){
     Project4.classList.add("port-right");
    
     
 
   }
-  if(window.scrollY >= portfolio.offsetTop + 1450){
-     Project10.classList.add("port-left");
+  if(window.scrollY >= portfolio.offsetTop + 1750){
+     Project8.classList.add("port-left");
     
    
 
   }
-  if(window.scrollY >= portfolio.offsetTop + 1650){
-    Project8.classList.add("port-right");
-   
-    
-
-  }
-  if(window.scrollY >= portfolio.offsetTop + 1850){
-    Project11.classList.add("port-left");
+  
+  if(window.scrollY >= portfolio.offsetTop + 1900){
+    Project11.classList.add("port-right");
    
   
 
  }
+ if(window.scrollY >= portfolio.offsetTop + 2150){
+  Project12.classList.add("port-left");
+ 
 
+
+}
+if(window.scrollY >= portfolio.offsetTop + 2450){
+  Project13.classList.add("port-right");
+ 
+
+
+}
 }
  
