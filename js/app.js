@@ -123,6 +123,10 @@ let Project10=document.getElementById("pro-10");
 let Project11=document.getElementById("pro-11");
 let Project12=document.getElementById("pro-12");
 let Project13=document.getElementById("pro-13");
+let Project14=document.getElementById("pro-14");
+let Project15=document.getElementById("pro-15");
+let Project16=document.getElementById("pro-16");
+let Project17=document.getElementById("pro-17");
 let portfolio=document.getElementById("portfolio");
 
 
@@ -211,6 +215,30 @@ window.onscroll=()=>{
 }
 if(window.scrollY >= portfolio.offsetTop + 2450){
   Project13.classList.add("port-right");
+ 
+
+
+}
+if(window.scrollY >= portfolio.offsetTop + 2700){
+  Project14.classList.add("port-left");
+ 
+
+
+}
+if(window.scrollY >= portfolio.offsetTop + 2950){
+  Project15.classList.add("port-right");
+ 
+
+
+}
+if(window.scrollY >= portfolio.offsetTop + 3200){
+  Project16.classList.add("port-left");
+ 
+
+
+}
+if(window.scrollY >= portfolio.offsetTop + 3450){
+  Project17.classList.add("port-right");
  
 
 
